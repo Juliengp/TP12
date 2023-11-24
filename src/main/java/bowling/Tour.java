@@ -13,7 +13,7 @@ public class Tour {
 	protected int boulesLancees = 0;
 
 	protected Tour suivant;
-	
+
 	public Tour() {
 		// Vide pour l'héritage
 	}
@@ -31,7 +31,7 @@ public class Tour {
 	}
 
 	/**
-	 * 
+	 *
 	 * @return the number of balls already thrown in this frame
 	 **/
 	public int getBoulesLancees() {
@@ -39,7 +39,7 @@ public class Tour {
 	}
 
 	/**
-	 * 
+	 *
 	 * @return le numéro de cette frame
 	 */
 	public int getNumero() {
